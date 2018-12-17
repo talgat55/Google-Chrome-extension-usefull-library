@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <script src="js/jquery.min.js"></script>
+
+</head>
+<header>
+    <div class="container  header-table-view">
+
+        <div class="right-header">
+            <h2>    </h2>
+        </div>
+        
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="full-width">
+            <form>
+                <h2>
+                    Добавить  запись
+                </h2>
+                <div class="form-group">
+                    <label>Категорию:</label>
+                    <label><input type="radio" name="kindscat" value="exist" >Выбрать</label>
+                    <label><input type="radio" name="kindscat" value="new" checked>Создать</label>
+                </div>
+                <div class="form-group">
+                    <select class="cat-select" name="select-cat"></select>
+
+                    <input type="text"  class="form-control  new-cat" name="new-cat"  placeholder="Раздел">
+                </div>
+                <div class="form-group">
+                    <input type="text"  class="form-control"  name="name"  placeholder="Заголовок">
+
+                </div>
+                <div class="form-group">
+                    <textarea id="ckeditor"  class="form-control  "  name="text"   placeholder="Текст"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">отправить</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="js/editor/tinymce.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

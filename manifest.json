@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Usefull",
+	"description": "description",
+	"csp": "script-src 'self' 'unsafe-inline'; object-src 'self'",
+	"version": "1.0",
+	"browser_action": {
+		//"default_icon": "icon.png",
+		"default_popup": "popup.html"
+
+	}/*,	
+	"content_scripts": [
+		{ 
+		"css": ["style.css"],
+		"js": ["jquery.js","script.js"]
+		}
+
+	]*/
+
+
+
+}

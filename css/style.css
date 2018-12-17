@@ -1,0 +1,38 @@
+/*
+* 
+*/
+
+body {
+    width: 420px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.container {
+    width: 408px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*
+* Main blocks
+*/
+ form h2{
+     text-align: center;
+     margin-bottom: 25px;
+     margin-top: 0;
+ }
+ form {
+     padding: 30px;
+ }
+ input[type=radio]{
+     padding-right: 5px;
+ }
+ .cat-select{
+     display: none;
+ }
